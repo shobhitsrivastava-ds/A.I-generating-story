@@ -2,10 +2,10 @@ from flask import Flask,render_template, url_for , redirect, flash, request,send
 
 import numpy as np
 from PIL import Image
-from keras.preprocessing import image
+#from keras.preprocessing import image
 
 import os
-from tensorflow import keras
+#from tensorflow import keras
 import tensorflow
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Embedding,LSTM,Dense,Dropout
@@ -15,9 +15,9 @@ from tensorflow.keras.models import Sequential
 import tensorflow.keras.utils as ku
 #from tensorflow.keras.np_utils import probas_to_classes
 
-import pandas as pd
+#import pandas as pd
 import tensorflow as tf
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 app=Flask(__name__,template_folder='template')
 

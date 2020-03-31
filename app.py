@@ -138,7 +138,7 @@ def about():
 	return render_template("about.html")
 
 @app.route("/gen_story")
-def clean():
+def gen_story():
     return render_template("index.html")
 
 if __name__ == "__main__":
